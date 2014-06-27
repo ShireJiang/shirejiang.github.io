@@ -2,12 +2,20 @@
 /* ----------------------------------------------------------*/
 
 .home {
-  margin: 100px 0;
-  
+  margin: 70px 0;
+
   h1 {
-    font-size: 72px;
+    font-size: 64px;
     text-align: center;
-    font-weight: lighter;
+    font-weight: 200;
+  }
+
+  p {
+    color: $gray;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 200;
+    -webkit-font-smoothing: antialiased;
   }
 }
 
