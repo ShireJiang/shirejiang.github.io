@@ -4,6 +4,9 @@
 * {
   margin: 0;
   padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html, body { height: 100%; }
@@ -41,10 +44,20 @@ a:visited { color: #205caa; }
 /* Site header */
 
 .site-header {
-  border-top: 5px solid #333;
-  border-bottom: 1px solid #e8e8e8;
   min-height: 56px;
+  padding: 20px 0;
   background-color: white;
+
+  .avatar {
+    float: left;
+    width: 56px;
+    height: 56px;
+    margin-right: 20px;
+    background-image: url('/images/avatar.png');
+    background-size: cover;
+    border-radius: 56px;
+    border: 1px solid #ddd;
+  }
 }
 
 .site-title,
