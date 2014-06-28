@@ -6,6 +6,6 @@ permalink: /about/
 
 Shire is a interaction designer, a web developer and an iOS developer. I love to create beautiful things and always feel curious about new things.
 
-Cofounder of [Teambition](https://www.teambition.com), which is dedicated to building sharp platform for project management.
+Cofounder of <a href="https://www.teambition.com" target="_blank">Teambition</a>, which is dedicated to building sharp platform for project management.
 
-Graduated from Management Information System of [Shanghai Jiao Tong University](http://www.sjtu.edu.cn/).
+Graduated from Management Information System of <a href="http://www.sjtu.edu.cn/" target="_blank">Shanghai Jiao Tong University</a>.
