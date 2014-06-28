@@ -155,11 +155,17 @@ a:visited {
 /* Home styles */
 /* ----------------------------------------------------------*/
 .home {
-    margin: 100px 0; }
+    margin: 70px 0; }
 .home h1 {
-    font-size: 72px;
+    font-size: 64px;
     text-align: center;
-    font-weight: lighter; }
+    font-weight: 200; }
+.home p {
+    color: #a5adaa;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 200;
+    -webkit-font-smoothing: antialiased; }
 
 .posts {
     list-style-type: none; }
