@@ -4,19 +4,23 @@ layout: default
 
 <div class="home">
 
-  <h1>Beauty is attitude</h1>
-  <p>Life is about beauty, just like code come across design, and I come across you!</p>
+  <div class="hero-wrapper">
+    <h1>Beauty is attitude</h1>
+    <p>Life is about beauty, just like code come across design, and I come across you!</p>
+    <hr/>
+  </div>
 
-  <!--<h1>Posts</h1>-->
-
-  <!--<ul class="posts">-->
-    <!--{% for post in site.posts %}-->
-      <!--<li>-->
-        <!--<span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>-->
-        <!--<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>-->
-      <!--</li>-->
-    <!--{% endfor %}-->
-  <!--</ul>-->
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li class="post">
+        <a href="{{ post.url | prepend: site.baseurl }}">
+          <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+          <h3 class="post-title">{{ post.title }}</h3>
+          <p class="post-summary">{{ post.summary }}</p>
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
 
   <!--<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>-->
 

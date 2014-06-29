@@ -17,9 +17,28 @@
   margin-top: 5px;
 }
 
-.post-content { margin: 0 0 30px; }
+.post-content {
+  margin: 0 0 30px;
+  > * {
+    margin: 20px 0;
+  }
 
-.post-content > * { margin: 20px 0; }
+  a {
+    text-decoration: underline;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  p {
+    font-size: 20px;
+    line-height: 1.5;
+    font-family: freight-text-pro, Georgia, Cambria, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+  }
+}
 
 
 .post-content h1,

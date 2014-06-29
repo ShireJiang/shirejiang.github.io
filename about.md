@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Shire is a interaction designer, a web developer and an iOS developer. I love to create beautiful things and always feel curious about new things.
+I am a interaction designer, a web and an iOS developer. I love to create beautiful things and always feel curious about new things.
 
 Cofounder of <a href="https://www.teambition.com" target="_blank">Teambition</a>, which is dedicated to building sharp platform for project management.
 
