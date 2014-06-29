@@ -59,7 +59,7 @@ a:visited {
     width: 56px;
     height: 56px;
     margin-right: 20px;
-    background-image: url("/images/avatar.png");
+    background-image: url("/images/avatar.jpg");
     background-size: cover;
     border-radius: 56px;
     border: 1px solid #ddd; }
@@ -155,33 +155,52 @@ a:visited {
 /* Home styles */
 /* ----------------------------------------------------------*/
 .home {
-    margin: 70px 0; }
-.home h1 {
+    margin: 50px 0 80px; }
+.home .hero-wrapper {
+    text-align: center; }
+.home .hero-wrapper h1 {
     font-size: 64px;
-    text-align: center;
     font-weight: 200; }
-.home p {
+.home .hero-wrapper p {
     color: #a5adaa;
-    text-align: center;
     font-size: 18px;
     font-weight: 200;
     -webkit-font-smoothing: antialiased; }
+.home .hero-wrapper hr {
+    width: 220px;
+    height: 0;
+    margin: 50px auto;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.05); }
 
 .posts {
-    list-style-type: none; }
-
-.posts li {
-    margin-bottom: 30px; }
-
-.posts .post-link {
-    font-size: 24px;
+    margin-top: 100px;
+    list-style-type: none;
+    text-align: left; }
+.posts > li {
+    padding: 40px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05); }
+.posts > li:last-child {
+    border-bottom: 0; }
+.posts > li > a {
+    text-decoration: none; }
+.posts .post-title {
+    margin-top: 4px;
+    margin-bottom: 8px;
+    color: #0e3329;
+    font-weight: 400;
+    font-size: 28px;
     letter-spacing: -1px;
     line-height: 1; }
-
 .posts .post-date {
     display: block;
     font-size: 15px;
-    color: #818181; }
+    color: #a5adaa;
+    -webkit-font-smoothing: antialiased; }
+.posts .post-summary {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.6);
+    -webkit-font-smoothing: antialiased; }
 
 /* Post styles */
 /* ----------------------------------------------------------*/
@@ -201,9 +220,18 @@ a:visited {
 
 .post-content {
     margin: 0 0 30px; }
-
 .post-content > * {
     margin: 20px 0; }
+.post-content a {
+    text-decoration: underline; }
+.post-content img {
+    width: 100%; }
+.post-content p {
+    font-size: 20px;
+    line-height: 1.5;
+    font-family: freight-text-pro, Georgia, Cambria, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased; }
 
 .post-content h1,
 .post-content h2,
