@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Welcome to Jekyll!"
+summary: "You'll find this post in your directory - edit this post and re-build (or run with the  switch) to see your changes!"
 date:   2014-06-25 22:24:44
 categories: jekyll update
 ---
