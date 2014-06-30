@@ -14,8 +14,7 @@ body {
     font-family: Helvetica, Arial, sans-serif;
     font-size: 16px;
     line-height: 1.5;
-    font-weight: 300;
-    background-color: #fdfdfd; }
+    font-weight: 300; }
 
 h1, h2, h3, h4, h5, h6 {
     font-size: 100%;
@@ -90,8 +89,30 @@ a:visited {
 
 /* Site footer */
 .site-footer {
-    border-top: 1px solid #e8e8e8;
-    padding: 30px 0; }
+    padding: 30px 0;
+    margin-top: 50px; }
+.site-footer .footer-icons {
+    width: 320px;
+    margin: 0 auto;
+    text-align: center; }
+.site-footer .sns-icon {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    margin: 0 16px;
+    fill: #dedede;
+    cursor: pointer; }
+.site-footer .sns-icon:first-child:hover {
+    fill: #28aae2; }
+.site-footer .sns-icon:nth-child(2):hover {
+    fill: #35679a; }
+.site-footer .sns-icon:nth-child(3):hover {
+    fill: #0d78b6; }
+.site-footer .sns-icon:last-child:hover {
+    fill: #35679a; }
+.site-footer .footer-text {
+    margin-top: 20px;
+    text-align: center; }
 
 .footer-heading {
     font-size: 18px;
@@ -180,8 +201,6 @@ a:visited {
 .posts > li {
     padding: 40px 0;
     border-bottom: 1px solid rgba(0, 0, 0, 0.05); }
-.posts > li:last-child {
-    border-bottom: 0; }
 .posts > li > a {
     text-decoration: none; }
 .posts .post-title {
