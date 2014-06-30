@@ -16,7 +16,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   font-weight: 300;
-  background-color: #fdfdfd;
+//  background-color: #fdfdfd;
 }
 
 h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: 400; }
@@ -89,8 +89,41 @@ a:visited { color: #205caa; }
 /* Site footer */
 
 .site-footer {
-  border-top: 1px solid #e8e8e8;
+//  border-top: 1px solid #e8e8e8;
   padding: 30px 0;
+  margin-top: 50px;
+
+  .footer-icons {
+    width: 320px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .sns-icon {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    margin: 0 16px;
+    fill: #dedede;
+    cursor: pointer;
+    &:first-child:hover {
+      fill: #28aae2;
+    }
+    &:nth-child(2):hover {
+      fill: #35679a;
+    }
+    &:nth-child(3):hover {
+      fill: #0d78b6;
+    }
+    &:last-child:hover {
+      fill: #35679a;
+    }
+  }
+
+  .footer-text {
+    margin-top: 20px;
+    text-align: center;
+  }
 }
 
 .footer-heading {
