@@ -73,3 +73,46 @@
   }
 }
 
+
+.pagination {
+  position: relative;
+  padding: 32px 0;
+  text-align: center;
+  border-bottom: 1px solid $border-color;
+
+  .pagination-previous, .pagination-next, .pagination-page {
+    display: inline-block;
+    width: 98px;
+    height: 36px;
+    text-align: center;
+    line-height: 36px;
+    color: $dark;
+    text-decoration: none;
+    border: 1px solid #D8D8D8;
+    background-color: #eee;
+    &.selected {
+      background-color: #666;
+      color: white;
+      border: 1px solid $dark;
+    }
+  }
+
+  .pagination-previous, .pagination-next {
+    position: absolute;
+    width: 98px;
+    height: 36px;
+  }
+
+  .pagination-previous {
+    left: 0;
+  }
+
+  .pagination-next {
+    right: 0;
+  }
+
+  .pagination-page {
+    width: 36px;
+    height: 36px;
+  }
+}
