@@ -9,3 +9,6 @@ url: "http://shirejiang.com"
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+paginate: 1
+paginate_path: "blog/page:num"
