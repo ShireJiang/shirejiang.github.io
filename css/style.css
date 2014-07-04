@@ -92,14 +92,14 @@ a:visited {
     padding: 30px 0;
     margin-top: 50px; }
 .site-footer .footer-icons {
-    width: 320px;
+    width: 280px;
     margin: 0 auto;
     text-align: center; }
 .site-footer .sns-icon {
     display: inline-block;
     width: 36px;
     height: 36px;
-    margin: 0 16px;
+    margin: 0 10px;
     fill: #dedede;
     cursor: pointer; }
 .site-footer .sns-icon:first-child:hover {
@@ -175,27 +175,30 @@ a:visited {
 
 /* Home styles */
 /* ----------------------------------------------------------*/
-.home {
-    margin: 50px 0 80px; }
-.home .hero-wrapper {
+.site-hero {
+    padding-top: 100px; }
+
+.hero-wrapper {
     text-align: center; }
-.home .hero-wrapper h1 {
+.hero-wrapper h1 {
     font-size: 64px;
     font-weight: 200; }
-.home .hero-wrapper p {
+.hero-wrapper p {
     color: #a5adaa;
     font-size: 18px;
     font-weight: 200;
     -webkit-font-smoothing: antialiased; }
-.home .hero-wrapper hr {
+.hero-wrapper hr {
     width: 220px;
     height: 0;
     margin: 50px auto;
     border: 0;
     border-top: 1px solid rgba(0, 0, 0, 0.05); }
 
+.home {
+    margin: 0 0 80px; }
+
 .posts {
-    margin-top: 100px;
     list-style-type: none;
     text-align: left; }
 .posts > li {
@@ -220,6 +223,37 @@ a:visited {
     font-size: 16px;
     color: rgba(0, 0, 0, 0.6);
     -webkit-font-smoothing: antialiased; }
+
+.pagination {
+    position: relative;
+    padding: 32px 0;
+    text-align: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05); }
+.pagination .pagination-previous, .pagination .pagination-next, .pagination .pagination-page {
+    display: inline-block;
+    width: 98px;
+    height: 36px;
+    text-align: center;
+    line-height: 36px;
+    color: #0e3329;
+    text-decoration: none;
+    border: 1px solid #D8D8D8;
+    background-color: #eee; }
+.pagination .pagination-previous.selected, .pagination .pagination-next.selected, .pagination .pagination-page.selected {
+    background-color: #666;
+    color: white;
+    border: 1px solid #0e3329; }
+.pagination .pagination-previous, .pagination .pagination-next {
+    position: absolute;
+    width: 98px;
+    height: 36px; }
+.pagination .pagination-previous {
+    left: 0; }
+.pagination .pagination-next {
+    right: 0; }
+.pagination .pagination-page {
+    width: 36px;
+    height: 36px; }
 
 /* Post styles */
 /* ----------------------------------------------------------*/
