@@ -1,38 +1,38 @@
 /* Home styles */
 /* ----------------------------------------------------------*/
 
-.home {
-  margin: 50px 0 80px;
+.site-hero {
+  padding-top: 100px;
+}
+.hero-wrapper {
+  text-align: center;
 
-  .hero-wrapper {
-    text-align: center;
-
-    h1 {
-      font-size: 64px;
-      font-weight: 200;
-    }
-
-    p {
-      color: $gray-light;
-      font-size: 18px;
-      font-weight: 200;
-      -webkit-font-smoothing: antialiased;
-    }
-
-    hr {
-      width: 220px;
-      height: 0;
-      margin: 50px auto;
-      border: 0;
-      border-top: 1px solid $border-color;
-    }
+  h1 {
+    font-size: 64px;
+    font-weight: 200;
   }
 
+  p {
+    color: $gray-light;
+    font-size: 18px;
+    font-weight: 200;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  hr {
+    width: 220px;
+    height: 0;
+    margin: 50px auto;
+    border: 0;
+    border-top: 1px solid $border-color;
+  }
 }
 
+.home {
+  margin: 0 0 80px;
+}
 
 .posts {
-  margin-top: 100px;
   list-style-type: none;
   text-align: left;
 

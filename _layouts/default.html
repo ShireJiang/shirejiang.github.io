@@ -7,6 +7,10 @@
 
     {% include header.html %}
 
+    {% if page.name == "index.html" %}
+      {% include hero.html %}
+    {% endif %}
+
     <div class="page-content">
       <div class="wrap">
       {{ content }}
