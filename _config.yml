@@ -2,6 +2,7 @@
 title: Shire Jiang
 email: shirejiang@gmail.com
 username: shirejiang
+keywords: Shire Jiang, shirejiang, blog of shirejiang
 description: "Blog site of Shire Jiang. We are always looking for something beautiful."
 baseurl: ""
 url: "http://shirejiang.com"
@@ -9,3 +10,6 @@ url: "http://shirejiang.com"
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+paginate: 10
+paginate_path: "blog/page:num"
