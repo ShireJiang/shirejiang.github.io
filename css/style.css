@@ -202,10 +202,25 @@ a:visited {
     list-style-type: none;
     text-align: left; }
 .posts > li {
+    position: relative;
     padding: 40px 0;
     border-bottom: 1px solid rgba(0, 0, 0, 0.05); }
 .posts > li > a {
     text-decoration: none; }
+.posts .category-icon {
+    position: absolute;
+    right: 0;
+    top: 60px;
+    width: 36px;
+    height: 36px;
+    background-size: 108px 36px;
+    background-image: url("/images/icons@2x.png"); }
+.posts .category-icon.idea {
+    background-position: 0 0; }
+.posts .category-icon.development {
+    background-position: -36px 0; }
+.posts .category-icon.design {
+    background-position: -72px 0; }
 .posts .post-title {
     margin-top: 4px;
     margin-bottom: 8px;
