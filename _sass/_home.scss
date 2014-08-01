@@ -37,6 +37,7 @@
   text-align: left;
 
   > li {
+    position: relative;
     padding: 40px 0;
     border-bottom: 1px solid $border-color;
 
@@ -47,6 +48,26 @@
 
   > li > a {
     text-decoration: none;
+  }
+
+  .category-icon {
+    position: absolute;
+    right: 0;
+    top: 60px;
+    width: 36px;
+    height: 36px;
+    background-size: 108px 36px;
+    background-image: url('/images/icons@2x.png');
+
+    &.idea {
+      background-position: 0 0;
+    }
+    &.development {
+      background-position: -36px 0;
+    }
+    &.design {
+      background-position: -72px 0;
+    }
   }
 
   .post-title {

@@ -14,6 +14,7 @@ identity: home
           <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
           <h3 class="post-title">{{ post.title }}</h3>
           <p class="post-summary">{{ post.summary }}</p>
+          <div class="category-icon {{ post.category }}"></div>
         </a>
       </li>
     {% endfor %}
