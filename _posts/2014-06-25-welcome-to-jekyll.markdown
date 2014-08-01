@@ -3,7 +3,7 @@ layout: post
 title:  "Welcome to Jekyll!"
 summary: "Sample post from Jekyll."
 date:   2014-06-25 22:24:44
-categories: jekyll update
+category: development
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!

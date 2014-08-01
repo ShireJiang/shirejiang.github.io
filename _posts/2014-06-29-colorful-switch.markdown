@@ -3,7 +3,7 @@ layout: post
 title:  "Colorful Switch"
 summary: "Recently I start to learn drawing icons with sketch, and share a good tutorial with you."
 date:   2014-06-29 15:00:00
-categories: sketch
+category: design
 ---
 
 ![Colorful Switch image](/images/2014-06-29/colorful-switch@2x.png)
