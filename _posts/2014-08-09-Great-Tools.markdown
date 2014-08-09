@@ -48,17 +48,17 @@ Dash has integrated with all popular IDEs, and tools like Alfred and Terminal, w
 
 <a href="http://www.omnigroup.com/" target="_blank">The Omni Group</a> has developed a series of great tools, which are focus on efficiency.
 
-**OmniFocus** let you track and review your todos.
+**OmniFocus** let you track and review your to-dos.
 
 **OmniGraffle** concentrates on diagramming.
 
-**OmniOutliner** help you writing in clear format.
+**OmniOutliner** help you write in clear format.
 
 **OmniPlan** is an excellent project management tool.
 
 ## 6) JetBrains
 
-Coders are familiar with <a href="http://www.jetbrains.com/" target="_blank">JetBrains</a>. They provides us smart IDEs and code editors, like IntelliJ IDEA, AppCode, WebStorm, PyCharm, RubyMine and so on. They nearly cover all the main program languages. 
+Coders are familiar with <a href="http://www.jetbrains.com/" target="_blank">JetBrains</a>. They provide us smart IDEs and code editors, like IntelliJ IDEA, AppCode, WebStorm, PyCharm, RubyMine and so on. They nearly cover all the main program languages. 
 
 All of them are powerful, and you may need some time to learn to master it. After you become familiar with one of them, you know them all, and you can never leave them.
 
