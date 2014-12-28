@@ -1,4 +1,6 @@
-// colors
+/**
+ * Color
+ */
 $blue: #2a7ae2;
 $dark: #0e3329;
 $gray: #808080;
@@ -6,3 +8,10 @@ $gray-light: #a5adaa;
 $gray-lighter: #c8cecc;
 
 $border-color: rgba(0,0,0,0.05);
+
+
+/**
+ * Typography
+ */
+$sans: "Source Sans Pro", "Open Sans", "Helvetica Neue", "Arial", sans-serif;
+$serif: "Calendas Plus","Crimson Text", "Hoefler Text", "Georgia", serif;

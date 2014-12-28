@@ -185,4 +185,27 @@ a:visited { color: #205caa; }
 .page-content {
   padding: 30px 0;
   background-color: #fff;
+
+  .share {
+    text-align: center;
+    display: block;
+    margin: 100px auto 0;
+    width: 76px;
+    font-size: 16px;
+    font-family: $sans;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 4px 6px 4px 6px;
+    color: $gray-light;
+    border: 2px solid transparentize($gray-light,.3);
+    border-radius: 3px;
+    text-decoration: none;
+    // @include br(4px);
+    @include transit(all,.2s,ease);
+    &:hover {
+      color: $blue;
+      border-color: transparentize($blue,.3);
+    }
+  }
 }
