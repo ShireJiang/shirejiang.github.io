@@ -91,6 +91,10 @@
   font-size: 15px;
 }
 
+.post pre {
+  overflow-x: auto;
+}
+
 .post code { padding: 1px 5px; }
 
 .post ul,
