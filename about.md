@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-I am a interaction designer, a web and an iOS developer. I love to create beautiful things and always feel curious about new things.
+I am an interaction designer, a web and an iOS developer. I love to create beautiful things and always feel curious about new things.
 
 Co-founder & VPE of <a href="https://www.teambition.com" target="_blank">Teambition</a>, which is dedicated to building sharp platform for project management.
 
